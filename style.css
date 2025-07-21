@@ -1,0 +1,209 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caviar Dreams', sans-serif;
+  
+}
+a{
+  all: unset;
+  cursor: pointer;
+  color: #000;
+  transition: 0.6s linear;
+}
+a:hover{
+  color: maroon;
+}
+body {
+  background: #f5f5f5;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  background-image: url(img/bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.contact-list {
+  text-align: left;
+  margin: 20px;
+  line-height: 1.6;
+  font-size: 1.5em;
+  padding-top: 15%;
+  height: 100vh;
+}
+.priem_btn{
+  margin: auto;
+  background-color: maroon;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+  cursor: pointer;
+  font-size: 1.5em;
+  width: 30%;
+  
+}
+.priem_btn:hover{
+  background-color: #999;
+   transition: 0.8s linear;
+}
+.carousel-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.carousel {
+  display: flex;
+  height: 80vh;
+  background: #ccc;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  touch-action: pan-y;
+}
+li{
+  padding: 20px;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background: #bbb;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #999;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #000;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3em;
+  margin: 20px 0;
+  color: #000;
+  padding: 50px;
+}
+
+.review {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.bio {
+  padding: 20px;
+  text-align: right;
+  height: 100vh;
+  background-image: url(img/bg2.png);
+}
+
+.bio ul {
+  list-style: none;
+  margin-top: 10px;
+  font-size: 2.5em;
+}
+
+.bio li::before {
+  content: '•';
+  margin-right: 8px;
+  color: white;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+
+
+@media (max-width: 600px) {
+  .carousel {
+    height: 60vh;
+  }
+  .contact-list {
+  text-align: center;
+  margin: 20px;
+  line-height: 1.6;
+  font-size: 1em;
+  padding-top: 60%;
+}
+.header {
+  background-image: url(img/bg_mob.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.bio {
+  padding: 20px;
+  text-align: right;
+  background-image: url(img/bg2_mob.png);
+  height: 80vh;
+}
+.bio ul {
+  list-style: none;
+  margin-top: 10px;
+  font-size: 1em;
+  
+}
+.priem_btn{
+  margin: auto;
+  background-color: maroon;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 60%;
+  
+}
+.priem_btn:hover{
+  background-color: #999;
+   transition: 0.8s linear;
+}
+}
