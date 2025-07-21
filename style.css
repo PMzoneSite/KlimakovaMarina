@@ -166,7 +166,7 @@ li{
   padding-top: 60%;
 }
 .header {
-  background-image: url(img/bg_mob.png);
+  background-image: #999;
   background-size: cover;
   background-position: center;
   padding: 20px;
