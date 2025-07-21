@@ -34,6 +34,7 @@ body {
   text-align: center;
   position: relative;
   height: 100vh;
+  
 }
 
 .contact-list {
@@ -165,20 +166,19 @@ li{
   padding-top: 60%;
 }
 .header {
-  background-image: #999;
+  background-image: url(img/bg2_mob.png);
   background-size: cover;
   background-position: center;
   padding: 20px;
   text-align: center;
   position: relative;
   height: 100vh;
-  background-attachment: fixed;
 }
 .bio {
   padding: 20px;
   text-align: right;
   background-image: url(img/bg2_mob.png);
-  height: 80vh;
+  height: 100vh;
 }
 .bio ul {
   list-style: none;
