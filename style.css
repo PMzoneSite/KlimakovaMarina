@@ -177,7 +177,9 @@ li{
 .bio {
   padding: 20px;
   text-align: right;
-  background-image: url(img/bg2_mob.png);
+  background-image: url(img/bg_mob2.png);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 .bio ul {
