@@ -159,7 +159,7 @@ li{
     height: 60vh;
   }
   .contact-list {
-  text-align: center;
+  text-align: left;
   margin: 20px;
   line-height: 1.6;
   font-size: 1em;
@@ -170,7 +170,7 @@ li{
   background-size: cover;
   background-position: center;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   position: relative;
   height: 100vh;
 }
